@@ -85,7 +85,7 @@
 /* Starting from now on main-section-tow section */
 .section-tow-title{
     text-align: center;
-    margin-top:50px;
+    margin-top:60px;
     margin-bottom:25px;
     font-weight: 700;
     font-size: 40px;
@@ -132,13 +132,62 @@
 }
 
 .primary-button{
-    margin-top: 10px;
-    height: 64px;
+    margin-top: 15px;
     color: #F15B22;
     border-radius: 5px;
     font-weight: 600;
     font-size: 20px;;
-    padding:20px 25px;
+    padding:15px 20px;
     border: none;
     }
 /* from now on main-sectuin-tow section end */
+
+/* Starting from now on footer section */
+.footer{
+    width: 100%;
+    background: #151414;
+    color: wheat;
+    display: flex;
+    justify-content:space-evenly ;
+    padding:70px 0px;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8
+}
+
+.footer-pragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+.footer-section-icons{
+    margin-right: 10px;
+    margin-top:10px;
+}
+.footer-title-s{
+    font-weight:500;
+    font-size: 30px;
+    color: #F8F8F8
+}
+.footer-input{
+    padding:8px;
+    border-radius:8px;
+    background-color: #151414;
+    border: 2px solid grey;
+    margin: 15px 0;
+}
+
+.footer-button{
+    background:#FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;;
+    padding:10px 25px;
+    color: #f75050;
+    border: none; 
+}
+/* from now on footer section end */
