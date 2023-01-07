@@ -5,14 +5,15 @@
 
 /* Starting from now on header section  */
 .header{
+    height: 100vh;
     background-image:url("images/banner1.png");
     background-size:cover;
-    }
+}
 
 .header-article{
     padding: 120px 180px;
     text-align: right;
-    }
+}
 
 .article-title{
     font-weight: 700;
@@ -20,14 +21,14 @@
     line-height: 70px;
     color: #151414;
     margin-bottom:10px;
-    }
+}
 
 .article-paragraph{
     color: #444343;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    }
+}
 
 .article-button{
     margin-top:25px;
@@ -38,9 +39,8 @@
     font-size: 20px;;
     padding:20px 25px;
     color: #FFFFFF;
-    border: none;
-        
-    }
+    border: none;     
+}
 /*from now on header section end */
 
 
@@ -55,7 +55,7 @@
 }
 .section-one-img{
     height:600px;
-    }
+}
 .section-one-title{
     font-weight: 700;
     font-size: 40px;
@@ -82,10 +82,11 @@
 /* from now on main-sectuin-one section end */
 
 
+
 /* Starting from now on main-section-tow section */
 .section-tow-title{
     text-align: center;
-    margin-top:60px;
+     margin-top:100px; 
     margin-bottom:25px;
     font-weight: 700;
     font-size: 40px;
@@ -142,6 +143,55 @@
     border: none;
     }
 /* from now on main-sectuin-tow section end */
+
+
+
+/* Starting from now on main-section-optional section */
+
+.main-section-optional{
+    width: 1140px;
+    height: 350px;
+    margin: 200px auto;
+    border-radius:10px;
+    background-color: #d5ee7ba1;
+    background-image: url();
+}
+
+.section-optional-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #0e0d0d;
+    padding: 15px;
+}
+.section-optional-div{
+    display:flex;
+    justify-content: space-evenly;
+}
+.section-optional-div img{
+    width:150px;
+    height: 150px;
+    padding:15px;
+    border-radius: 20px;
+}
+.sectopm-optional-sub-box{
+    width: 950px;
+    height: 100px;
+    margin: 0px auto;
+    margin-top:40px;
+    border-radius:10px;
+    background-color: #c8ee5eea;
+}
+.optiona-sub-pargraoh{
+    text-align: center;
+    font-weight:400;
+    font-size:18px;
+    color: #050505;
+    padding:17px 15px;
+}
+/* from now on main-sectuin-optional section end */
+
+
 
 /* Starting from now on footer section */
 .footer{
